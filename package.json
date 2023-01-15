@@ -21,13 +21,13 @@
     "template",
     "boilerplate"
   ],
-  "homepage": "https://github.com/a11y-gigachad-org",
+  "homepage": "https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter",
   "bugs": {
-    "url": "https://github.com/a11y-gigachad-org"
+    "url": "https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/a11y-gigachad-org"
+    "url": "https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter"
   },
   "scripts": {
     "prebuild": "rm -rf dist",
