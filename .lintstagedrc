@@ -1,3 +1,5 @@
 {
-  "*.{js,jsx,ts,tsx,json,md}": ["npx eslint --max-warnings=0 --fix .", "npx prettier --write ."]
+  "*.{js,jsx,ts,tsx}": "npx eslint --max-warnings=0 --fix",
+  "*.{ts,tsx}": "npx tsc --noEmit --skipLibCheck",
+  "*.{js,jsx,ts,tsx,md,html,css}": "npx prettier --write --ignore-unknown"
 }
