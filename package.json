@@ -5,9 +5,8 @@
   "license": "MIT",
   "author": "John James",
   "type": "module",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.es.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/index.es.js",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
@@ -50,7 +49,6 @@
     "react": "latest",
     "react-dom": "latest",
     "rollup": "latest",
-    "rollup-plugin-dts": "latest",
     "rollup-plugin-visualizer": "latest",
     "semantic-release": "latest"
   },
