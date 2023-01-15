@@ -5,7 +5,8 @@
   "license": "MIT",
   "author": "John James",
   "type": "module",
-  "main": "dist/index.esm.js",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
