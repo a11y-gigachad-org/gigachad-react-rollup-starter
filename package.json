@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "John James",
   "type": "module",
-  "main": "dist/index.es.js",
+  "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "files": [
     "dist"
@@ -39,10 +39,8 @@
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-angular": "latest",
-    "@rollup/plugin-babel": "latest",
     "@rollup/plugin-commonjs": "latest",
     "@rollup/plugin-node-resolve": "latest",
-    "@rollup/plugin-replace": "latest",
     "@rollup/plugin-terser": "latest",
     "@rollup/plugin-typescript": "latest",
     "@types/react": "latest",
@@ -57,7 +55,6 @@
     "react": "latest",
     "react-dom": "latest",
     "rollup": "latest",
-    "rollup-plugin-visualizer": "latest",
     "semantic-release": "latest",
     "typescript": "latest"
   },
