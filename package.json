@@ -1,0 +1,59 @@
+{
+  "name": "gigachad-react-rollup-starter",
+  "version": "0.0.0-semantically-released",
+  "description": "react rollup starter for building npm packages",
+  "license": "MIT",
+  "author": "John James",
+  "type": "module",
+  "main": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "npm": ">=7.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "rollup",
+    "starter",
+    "template",
+    "boilerplate"
+  ],
+  "homepage": "https://github.com/a11y-gigachad-org",
+  "bugs": {
+    "url": "https://github.com/a11y-gigachad-org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a11y-gigachad-org"
+  },
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "rollup --config",
+    "start": "rollup --config --watch",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@rollup/plugin-babel": "latest",
+    "@rollup/plugin-commonjs": "latest",
+    "@rollup/plugin-node-resolve": "latest",
+    "@rollup/plugin-replace": "latest",
+    "@rollup/plugin-typescript": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.3",
+    "react": "latest",
+    "react-dom": "latest",
+    "rollup": "latest",
+    "rollup-plugin-terser": "latest",
+    "rollup-plugin-visualizer": "latest"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0"
+  }
+}
