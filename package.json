@@ -34,7 +34,8 @@
     "build": "rollup --config",
     "start": "rollup --config --watch",
     "prepare": "husky install",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
@@ -47,13 +48,18 @@
     "@rollup/plugin-typescript": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
     "husky": "latest",
     "prettier": "latest",
     "react": "latest",
     "react-dom": "latest",
     "rollup": "latest",
     "rollup-plugin-visualizer": "latest",
-    "semantic-release": "latest"
+    "semantic-release": "latest",
+    "typescript": "latest"
   },
   "peerDependencies": {
     "react": ">=17.0.0"
