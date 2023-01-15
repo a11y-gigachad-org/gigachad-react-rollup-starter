@@ -34,8 +34,7 @@
     "build": "rollup --config",
     "start": "rollup --config --watch",
     "prepare": "husky install",
-    "semantic-release": "semantic-release",
-    "lint": "eslint ."
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
@@ -53,6 +52,7 @@
     "eslint": "latest",
     "eslint-config-prettier": "latest",
     "husky": "latest",
+    "lint-staged": "latest",
     "prettier": "latest",
     "react": "latest",
     "react-dom": "latest",
