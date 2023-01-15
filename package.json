@@ -1,6 +1,6 @@
 {
   "name": "gigachad-react-rollup-starter",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0-development",
   "description": "react rollup starter for building npm packages",
   "license": "MIT",
   "author": "John James",
@@ -33,7 +33,8 @@
     "prebuild": "rm -rf dist",
     "build": "rollup --config",
     "start": "rollup --config --watch",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
@@ -51,7 +52,8 @@
     "react-dom": "latest",
     "rollup": "latest",
     "rollup-plugin-terser": "latest",
-    "rollup-plugin-visualizer": "latest"
+    "rollup-plugin-visualizer": "latest",
+    "semantic-release": "^20.0.2"
   },
   "peerDependencies": {
     "react": ">=17.0.0"
