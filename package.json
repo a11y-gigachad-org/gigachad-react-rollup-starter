@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
-    "@commitlint/config-conventional": "latest",
+    "@commitlint/config-angular": "latest",
     "@rollup/plugin-babel": "latest",
     "@rollup/plugin-commonjs": "latest",
     "@rollup/plugin-node-resolve": "latest",
