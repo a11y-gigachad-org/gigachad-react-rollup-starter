@@ -40,7 +40,7 @@
     "@rollup/plugin-commonjs": "latest",
     "@rollup/plugin-node-resolve": "latest",
     "@rollup/plugin-replace": "latest",
-    "@rollup/plugin-terser": "^0.3.0",
+    "@rollup/plugin-terser": "latest",
     "@rollup/plugin-typescript": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
