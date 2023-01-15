@@ -1,1 +1,2 @@
-export { Test } from "./components/Test"
+export { Test } from "./Test"
+export { Dummy } from "./shared/Dummy"
