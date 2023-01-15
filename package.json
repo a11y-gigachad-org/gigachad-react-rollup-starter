@@ -18,6 +18,9 @@
     "template",
     "boilerplate"
   ],
+  "engines": {
+    "node": ">=18.12"
+  },
   "homepage": "https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter",
   "bugs": {
     "url": "https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter/issues"
