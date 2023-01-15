@@ -50,6 +50,7 @@
     "react": "latest",
     "react-dom": "latest",
     "rollup": "latest",
+    "rollup-plugin-dts": "latest",
     "rollup-plugin-visualizer": "latest",
     "semantic-release": "latest"
   },
