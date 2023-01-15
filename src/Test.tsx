@@ -3,7 +3,7 @@ type TestProps = {
 }
 
 export const Test = (props: TestProps) => {
-  const { children, x } = props
+  const { children } = props
 
   return <article>{children}</article>
 }
