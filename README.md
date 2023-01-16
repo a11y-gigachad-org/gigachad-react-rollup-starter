@@ -4,7 +4,7 @@ Bare bones [Rollup](https://rollupjs.org/guide/en/) template for building [React
 
 ## ❓ What can I use it for?
 
-To develop React Typescript components that are bundled and served as ES Modules.
+To develop React Typescript components that are bundled as ES Modules.
 
 ## ⚙️ Getting started
 
