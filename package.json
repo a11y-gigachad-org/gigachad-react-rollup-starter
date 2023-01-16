@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "John James",
   "type": "module",
-  "main": "dist/index.es.js",
+  "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "files": [
     "dist"
@@ -39,21 +39,24 @@
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-angular": "latest",
-    "@rollup/plugin-babel": "latest",
     "@rollup/plugin-commonjs": "latest",
     "@rollup/plugin-node-resolve": "latest",
-    "@rollup/plugin-replace": "latest",
     "@rollup/plugin-terser": "latest",
     "@rollup/plugin-typescript": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
     "husky": "latest",
+    "lint-staged": "latest",
     "prettier": "latest",
     "react": "latest",
     "react-dom": "latest",
     "rollup": "latest",
-    "rollup-plugin-visualizer": "latest",
-    "semantic-release": "latest"
+    "semantic-release": "latest",
+    "typescript": "latest"
   },
   "peerDependencies": {
     "react": ">=17.0.0"
