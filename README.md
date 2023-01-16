@@ -6,9 +6,15 @@ Bare bones [Rollup](https://rollupjs.org/guide/en/) template for building React 
 
 To develop React Typescript components that are bundled and served as ES Modules.
 
-## ⚙️ Install
+## ⚙️ Getting started
 
-This repository is a template, so no installing. Click on "Use this template" above to the right to create a new repository with the same directory structure and files.
+This repository is a GitHub template. Click on "Use this template" above to the right to create a new repository with the same directory structure and files.
+
+Or you can clone it locally by using
+
+```
+git clone https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter.git my-app
+```
 
 ## 📖 Usage
 
