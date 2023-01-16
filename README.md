@@ -8,9 +8,7 @@ To develop React Typescript components that are bundled and served as ES Modules
 
 ## ⚙️ Install
 
-```
-npm i gigachad-react-rollup-starter --save-dev
-```
+This repository is a template, so no installing. Click on "Use this template" above to the right to create a new repository with the same directory structure and files.
 
 ## 📖 Usage
 
@@ -18,7 +16,7 @@ npm i gigachad-react-rollup-starter --save-dev
 
 `npm start` builds and watches the files during development.
 
-`npm link` in the module directory and then `npm link <packgage.name>` in any [Create React App](https://create-react-app.dev) or [Next.JS](https://nextjs.org) repo to develop your component for the browser.
+`npm link` in the module directory and then `npm link <packgage.name>` in any [Create React App](https://create-react-app.dev) or [Next.JS](https://nextjs.org) repository to develop your component for the browser.
 
 ## 💬 Discussions
 
