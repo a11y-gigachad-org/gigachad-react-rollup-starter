@@ -25,9 +25,9 @@
     "url": "https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter"
   },
   "scripts": {
-    "prebuild": "rm -rf dist",
-    "build": "rollup --config",
     "start": "rollup --config --watch",
+    "build": "rollup --config",
+    "prebuild": "rm -rf dist",
     "prepare": "husky install"
   },
   "devDependencies": {
