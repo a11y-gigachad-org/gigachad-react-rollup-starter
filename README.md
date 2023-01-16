@@ -1,6 +1,6 @@
 # ⚛️ React Typescript Rollup Starter
 
-Bare bones [Rollup](https://rollupjs.org/guide/en/) template for building React Typescript ES Modules.
+Bare bones [Rollup](https://rollupjs.org/guide/en/) template for building [React](https://reactjs.org) + [Typescript](https://www.typescriptlang.org) ES Modules.
 
 ## ❓ What can I use it for?
 
