@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react"
 import "@testing-library/jest-dom"
+
 import { Dummy } from "./Dummy"
 
 it("should render `title` and `children`", () => {
@@ -9,5 +10,5 @@ it("should render `title` and `children`", () => {
     </Dummy>
   )
 
-  expect(screen.getByText("Hii!")).toBeInTheDocument()
+  expect(screen.getByText("Hi!")).toBeInTheDocument()
 })
