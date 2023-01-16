@@ -18,7 +18,7 @@ git clone https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter.git
 
 ## 📖 Usage
 
-`npm run build` bundles files into `dist/index.js` and types into `dist/types/index.d.js`. It includes source maps, as well.
+`npm run build` bundles files into `dist/index.js` and types into `dist/types/index.d.js`.
 
 `npm start` builds and watches the files during development.
 
