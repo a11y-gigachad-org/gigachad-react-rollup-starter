@@ -27,6 +27,7 @@
   "scripts": {
     "start": "rollup --config --watch",
     "build": "rollup --config",
+    "test": "jest",
     "prebuild": "rm -rf dist",
     "prepare": "husky install"
   },
@@ -37,6 +38,9 @@
     "@rollup/plugin-node-resolve": "latest",
     "@rollup/plugin-terser": "latest",
     "@rollup/plugin-typescript": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@types/jest": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
@@ -44,10 +48,13 @@
     "eslint": "latest",
     "eslint-config-prettier": "latest",
     "husky": "latest",
+    "jest": "latest",
+    "jest-environment-jsdom": "latest",
     "prettier": "latest",
     "react": "latest",
     "react-dom": "latest",
     "rollup": "latest",
+    "ts-jest": "latest",
     "typescript": "latest"
   },
   "peerDependencies": {
