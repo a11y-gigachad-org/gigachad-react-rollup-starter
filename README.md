@@ -22,7 +22,7 @@ git clone https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter.git
 
 `npm start` builds and watches the files during development.
 
-`npm link` in the module directory and then `npm link <packgage.name>` in any [Create React App](https://create-react-app.dev) or [Next.JS](https://nextjs.org) repository to develop your component for the browser.
+`npm link` in the module directory and then `npm link <packgage.name>` in any [Create React App](https://create-react-app.dev) or [Next.JS](https://nextjs.org) repository to develop your components for the browser.
 
 ## 💬 Discussions
 
