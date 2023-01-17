@@ -24,6 +24,8 @@ git clone https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter.git
 
 `npm link` in the module directory and then `npm link <packgage.name>` in any [Create React App](https://create-react-app.dev) or [Next.JS](https://nextjs.org) repository to develop your components for the browser.
 
+`npm test` runs [Jest](https://jestjs.io/) with [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
 ## 💬 Discussions
 
 For any ideas or questions, head over to the [disscussions](https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter/discussions) to share them there.
