@@ -10,7 +10,7 @@ To develop React Typescript components that are bundled as ES Modules.
 
 This repository is a GitHub template. Click on "Use this template" above to the right to create a new repository with the same directory structure and files.
 
-Or you can clone it locally by using
+Or you can clone it locally by using the following command
 
 ```
 git clone https://github.com/a11y-gigachad-org/gigachad-react-rollup-starter.git my-app
