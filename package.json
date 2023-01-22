@@ -40,6 +40,7 @@
     "@rollup/plugin-typescript": "latest",
     "@testing-library/jest-dom": "latest",
     "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
     "@types/jest": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
