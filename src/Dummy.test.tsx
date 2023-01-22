@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react"
 
-import { Dummy } from "./Dummy"
+import { Dummy } from "./"
 
 it("should render `title` and `children`", () => {
   render(
