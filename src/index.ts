@@ -1,1 +1,1 @@
-export { Dummy, type DummyProps } from "./Dummy"
+export { default as Dummy, type DummyProps } from "./Dummy"

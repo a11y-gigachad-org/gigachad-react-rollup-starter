@@ -3,7 +3,7 @@ export type DummyProps = {
   title: string
 }
 
-export const Dummy = (props: DummyProps) => {
+const Dummy = (props: DummyProps) => {
   const { children, title } = props
 
   return (
@@ -14,3 +14,5 @@ export const Dummy = (props: DummyProps) => {
     </section>
   )
 }
+
+export default Dummy
