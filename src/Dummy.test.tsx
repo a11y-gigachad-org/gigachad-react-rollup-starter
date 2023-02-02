@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react"
 
 import { Dummy } from "./"
 
-it("should render `title` and `children`", () => {
+test("should render `title` and `children`", () => {
   render(
     <Dummy title="Hi!">
       <p>I'm Dummy!</p>
